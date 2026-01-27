@@ -2,8 +2,8 @@
 
 const chalk = require("chalk");
 
-console.log(chalk.whiteBright("\n• Modified Baileys by DexaDev"));
-console.log(chalk.cyan("• Telegram: ") + chalk.greenBright("@imdexa"));
+console.log(chalk.whiteBright("\n• Modified Baileys by KapotidOfficial"));
+console.log(chalk.cyan("• Telegram: ") + chalk.greenBright("KapotidOfficial"));
 console.log(chalk.gray("|---------------------------------------------------|"));
 console.log(chalk.gray("Masukan Nomor Bot Anda Contoh : 628××"));
 
